@@ -10,8 +10,10 @@
 /* Ajustes para el encabezado */
 .encabezado {
     background-color: rgb(250, 250, 43);
-    padding: 10px 0; /* Reduce el espacio entre el contenido y el borde del encabezado */
-    border-bottom: 10px solid #000; /* Línea inferior delgada */
+    padding: 10px 0;
+    /* Reduce el espacio entre el contenido y el borde del encabezado */
+    border-bottom: 10px solid #000;
+    /* Línea inferior delgada */
     border-top: 10px solid #000;
 }
 
@@ -23,7 +25,9 @@
 
 
 /* Ajustes para el texto */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     text-align: center;
     /* margin-top: 50px !important; */
@@ -45,16 +49,20 @@ h1, h2, h3 {
 }
 
 .footer {
-    background-color: #343a40; /* Color de fondo */
-    color: white; /* Color de texto */
+    background-color: #343a40;
+    /* Color de fondo */
+    color: white;
+    /* Color de texto */
 }
 
 .footer a {
-    color: white; /* Color de enlaces */
+    color: white;
+    /* Color de enlaces */
 }
 
 .footer a:hover {
-    color: lightgray; /* Color de enlaces al pasar el ratón */
+    color: lightgray;
+    /* Color de enlaces al pasar el ratón */
 }
 
 h5 {
@@ -75,26 +83,43 @@ p {
 .separar {
     border-bottom: 50px solid black;
     padding-top: 40px;
+    
+}
+
+.separarUl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fondoFletes {
     background-color: gray !important;
-    
+
 }
 
-ul li {
-    
+/* ul li {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+} */
+
+.separar ul {
     list-style: none;
-    
-    
+    padding: 0;
+    text-align: left;
+}
+
+.separar li {
+    margin-bottom: 10px;
 }
 
 .arcoiris {
     width: 20px;
     margin-right: 15px;
 }
-
+/* 
 .centrarServicios {
-    margin-left: 30%;
-    
-}
+    text-align: center;
+
+} */
